@@ -37,6 +37,7 @@ Desde http://localhost:8080/kie-server/docs/
 curl -X GET "http://localhost:8080/kie-server/services/rest/server/containers/prueba/forms/tasks/42/content?renderer=patternfly" -H  "accept: text/html"
 
 Devuelve: 
+
     <div class="form-group">
         <label for="field_592772040290695E9">Valor</label> 
         <select id="field_592772040290695E9" name="valor" class="form-control" >
